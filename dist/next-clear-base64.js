@@ -8,7 +8,6 @@
     return inValue.substr(index + 1);
   };
 
-
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = nx.clearBase64;
   }
